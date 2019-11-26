@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900|Noto+Sans:400,700&display=swap');
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul,ol,li,img,.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.pl-38{
+    padding-left: 38px;
+}
+.pr-35{
+    padding-right: 35px;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.m-14{
+    margin-right: -14px;
+}
+.mb-1{
+    margin-bottom: 1px;
+}
+/*Common Heading*/
+
+.header{}
+.header .navbar{
+    padding: 50px 0px 50px;
+}
+/*.navbar .logo-img{
+    padding-right: 15px;
+}*/
+
+.header .nav-item{}
+.header .nav-item .nav-link{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.header .nav-item .nav-link:hover{
+    color: #9899a2;
+}
+
+/*NAVIGATION CSS END*/
+
+.banner{
+    background: url("../image/banner.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    margin-top: -136px;
+    padding-bottom: 140px;
+}
+
+.banner2 h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding-top: 240px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.banner2 p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 55px;
+    color: #cccccc;
+}
+/*.banner-btn{
+    padding-bottom: 155px;
+}
+.banner-btn a{
+    padding: 20px 45px 20px 55px;
+    border: 1px solid transparent;
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+    border-radius: 5px;
+    background: #e84545;
+}
+.banner-btn a:hover{
+    background: transparent;
+    border: 1px solid #fff;
+}*/
+
+.div1px{
+  width: 113px;
+  height: 1px;
+  background: #35b9eb;
+  margin: 0 auto;
+}
+
+
+/*SLIDER CSS END*/
+
+.pro-service{
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+.pro-service .service-head{}
+.pro-service .service-head h4{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.pro-service .service-con{
+  padding-top: 80px;
+}
+.pro-service .service-con h6{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  text-transform: uppercase;
+}
+.pro-service .service-con p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  color: #888888;
+}
+
+/*#######*/
+
+.expert{
+  background: #f7f7f7;
+  padding-left: 150px;
+}
+
+.expert .expert-left{
+  padding-top: 90px;
+}
+.expert .expert-left .expert-head{}
+.expert .expert-left .expert-head h4{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+.expert .expert-left .expert-head .head-p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  color: #777777;
+  padding-bottom: 50px;
+}
+
+.expert-con{
+  padding-bottom: 27px;
+}
+.expert-con h6{
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  margin-left: -15px;
+}
+.expert-con .con-p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  color: #777777;
+  margin-left: -15px;
+  padding-bottom: 23px;
+}
+
+.expert-btn{
+    padding-bottom: 88px;
+}
+.expert-btn a{
+    padding: 23px 36px 26px 36px;
+    border: 1px solid #ceeefa;
+    display: inline-block;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+    border-radius: 50px;
+    background: #ffffff;
+}
+.expert-btn a:hover{
+    background: #35c2f8;
+    color: #fff;
+    border: 1px solid #ceeefa;
+}
+
+.expert-right{}
+.expert-right img{
+  height: 660px;
+}
+
+/*##############*/
+
+.amazing{}
+.amazing .amazing-left{
+  padding-top: 90px;
+  padding-left: 100px;
+
+  background: url("../image/amazing-back.png") no-repeat;
+ /* -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;*/
+  /*background-origin: content-box;*/
+  /*background-attachment: fixed;*/
+  background-position: left; 
+  background-origin: content-box;
+}
+.amazing .amazing-left .amazing-head{}
+.amazing .amazing-left .amazing-head h4{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+.amazing .amazing-left .amazing-head p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  color: #777777;
+  padding-bottom: 50px;
+
+  
+}
+
+.amazing-con{
+  padding-bottom: 70px;
+
+
+}
+.amazing-con h6{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.amazing-con .con-p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  color: #777777;
+  padding-bottom: 34px;
+}
+
+.amazing-right{}
+.amazing-right img{
+  padding-top: 75px;
+  height: 720px;
+}
+
+/*###########*/
+
+.port{}
+.port .row{}
+.port .row .col-lg-4{
+  padding-left: 0px;
+  padding-right: 0px;
+}.port .rows .col-md-6{
+  padding-left: -1px;
+  padding-right: -1px;
+}
+
+/*##################*/
+
+.about{
+  padding-top: 90px;
+  padding-bottom: 105px;
+}
+.about .div1px{
+  margin-bottom: 85px;
+}
+.about .about-head{}
+.about .about-head h4{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+
+
+.about-con h6{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.about-con .con-p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  color: #777777;
+}
+
+.line{
+  width: 2px;
+  height: 93px;
+  background: #f1f1f1;
+  margin: 0 auto;
+}
+
+.about-icon5{
+  background: url("../image/about-icon5.png") no-repeat;
+  /*-webkit-background-size: cover;
+  background-size: cover;*/
+  background-position: center;
+  
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.about-icon5-p{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  padding-top: 54px;
+  padding-bottom: 31px;
+  text-transform: uppercase;
+}
+
+/*#################*/
+
+.awesome{
+  background: #f7f7f7;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+.awesome .div1px{
+  margin-bottom: 82px;
+}
+.awesome .awesome-head{}
+.awesome .awesome-head h4{
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.awesome-con{
+  padding-bottom: 70px;
+}
+.awesome-con .blackdiv{
+  height: 200px;
+  width: 200px;
+  background: #111111;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.awesome-con h6{
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  padding-bottom: 6px;
+  padding-left: 20px;
+}
+.awesome-con p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  color: #777777;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.awesome-icon{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.awesome-icon span{
+  height: 42px;
+  width: 42px;
+  background: #111111;
+  border-radius: 50%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.awesome-icon span i{
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.awesome-foot p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  color: #777777;
+}
+
+/*###########*/
+
+.footer{
+  background: #111111;
+  padding-top: 90px;
+  /*padding-bottom: 100px;*/
+}
+.footer .foot-left{
+  padding-bottom: 50px;
+}
+.footer .foot-left .foot-head{}
+.footer .foot-left .foot-head h4{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  padding-bottom: 35px;
+  text-transform: uppercase;
+}
+.footer .foot-left .foot-head p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  color: #d2d2d2;
+  padding-bottom: 45px;
+}
+
+.foot-con{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.foot-con a i{
+  color: #fff;
+}
+.foot-con p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 6px;
+  margin-left: 15px;
+}
+
+.foot-right{
+  padding-bottom: 63px;
+}
+.foot-right form{}
+.foot-right form input{
+  height: 52px;
+  width: 80%;
+  display: block;
+  margin-bottom: 25px;
+}
+.foot-right form textarea{
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.form-btn{}
+.form-btn a{
+  color: #fff;
+  background: #33ccff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  padding: 22px 32px 24px 40px;
+  display: inline-block;
+  border-radius: 50px;
+  text-transform: uppercase;
+  border: 1px solid #333366; 
+}
+
+.white-line{
+  height: 1px;
+  width: 90%;
+  background: #fff;
+}
+.foot-last{
+  color: #999999;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
